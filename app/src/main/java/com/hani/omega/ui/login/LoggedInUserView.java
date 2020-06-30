@@ -5,6 +5,7 @@ package com.hani.omega.ui.login;
  */
 class LoggedInUserView {
     private String displayName;
+    private String mAge;
     //... other data fields that may be accessible to the UI
 
     LoggedInUserView(String displayName) {
@@ -13,5 +14,9 @@ class LoggedInUserView {
 
     String getDisplayName() {
         return displayName;
+    }
+
+    public String getmAge() {
+        return mAge;
     }
 }
